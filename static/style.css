@@ -1,6 +1,6 @@
 :root {
   --text: #222222;
-  --textb: rgba(0,0,0,.54);
+  --textb: rgba(0, 0, 0, 0.54);
   --bg: #ffffff;
   --md: #f2f2f2;
   --md2: #dadce0;
@@ -21,14 +21,13 @@ body {
   margin: 0;
 }
 
-html{
+html {
   height: 100%;
 }
 
 body {
-  min-height:100%;
+  min-height: 100%;
 }
-
 
 main a,
 a.services {
@@ -39,7 +38,8 @@ a.services {
 main {
 }
 
-nav a:hover, footer a:hover {
+nav a:hover,
+footer a:hover {
   text-decoration: underline;
 }
 
@@ -59,7 +59,9 @@ nav,
   flex: 0 0 auto;
 }
 
-nav, main, #logo {
+nav,
+main,
+#logo {
   padding-left: 1em;
   padding-right: 1em;
 }
@@ -68,7 +70,8 @@ nav {
   padding: 6px;
 }
 
-#logo, #search {
+#logo,
+#search {
   flex-direction: column;
   align-items: center;
 }
@@ -101,7 +104,6 @@ body {
   box-sizing: border-box;
 }
 
-
 footer {
   background-color: var(--md);
   color: var(--textb);
@@ -112,7 +114,8 @@ footer a {
   text-decoration: none;
 }
 
-#country, #legal {
+#country,
+#legal {
   margin-top: auto;
   padding: 1em 2em;
   border-bottom: 1px solid var(--md2);
@@ -168,7 +171,7 @@ footer a {
 }
 
 #searchbar input:focus {
-  outline:none
+  outline: none;
 }
 
 .searchicons {
